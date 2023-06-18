@@ -1,0 +1,50 @@
+# Emotion Detection using Deep Learning
+
+## Description
+This project utilizes deep learning techniques to detect emotions from live webcam feed. It detects faces in the frame using Haar cascades and then predicts the corresponding emotion for each detected face. The emotions recognized include: Angry, Disgusted, Fearful, Happy, Neutral, Sad, and Surprised.
+
+## Prerequisites
+- Python (3.6 or higher)
+- OpenCV (4.5.3 or higher)
+- Keras (2.4.3 or higher)
+- NumPy (1.19.5 or higher)
+
+## Installation
+1. Install Python from the official website: [Python.org](https://www.python.org/downloads/)
+
+2. Install the required packages using pip:
+
+pip install opencv-python keras numpy
+
+3. Download the Haar cascade file for face detection from [here](https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml) and save it in the `haarcascades` directory.
+
+4. Prepare your training and test images and place them in the respective directories (`data/train` and `data/test`).
+
+## Usage
+1. Clone the repository or download the project files to your local machine.
+
+2. Open a terminal or command prompt and navigate to the project directory.
+
+3. Run the following command to start the emotion detection:
+
+python emotion_detection.py
+
+
+4. The webcam feed will open, and emotions will be detected in real-time for each face in the frame. The detected emotions will be displayed above each face.
+
+5. To exit the program, press 'q' on your keyboard.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/your-username/your-repository/blob/main/LICENSE) file for more details.
+
+Feel free to modify and use this code for your own projects.
+
+## Acknowledgments
+- The code is based on the [FER2013 Kaggle Challenge](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) and the [DeepMoji](https://github.com/bfelbo/DeepMoji) project.
+- Haar cascade file for face detection is provided by OpenCV.
+- Special thanks to OpenAI for the GPT-3.5 language model used to generate this README file.
+
+## Author
+Your Name - [Your GitHub Profile](https://github.com/your-username)
+
+If you have any questions or suggestions, feel free to reach out. Enjoy emotion detection using deep learning!
