@@ -1,5 +1,5 @@
 # Emotion_detection_with_CNN
-
+This project utilizes deep learning techniques to detect emotions from live webcam feed. It detects faces in the frame using Haar cascades and then predicts the corresponding emotion for each detected face. The emotions recognized include: Angry, Disgusted, Fearful, Happy, Neutral, Sad, and Surprised.
 ### Packages need to be installed
 - pip install numpy
 - pip install opencv-python
