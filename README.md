@@ -1,6 +1,6 @@
 # Emotion_detection_with_CNN
 
-![emotion_detection](https://github.com/datamagic2020/Emotion_detection_with_CNN/blob/main/emoition_detection.png)
+![emotion_detection]([https://github.com/datamagic2020/Emotion_detection_with_CNN/blob/main/emoition_detection.png](https://miro.medium.com/v2/resize:fit:868/1*6xp-IY-M8lEEEN0UuUBq0w.jpeg))
 
 ### Packages need to be installed
 - pip install numpy
