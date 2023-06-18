@@ -1,7 +1,5 @@
 # Emotion_detection_with_CNN
 
-![emotion_detection]([https://miro.medium.com/v2/resize:fit:868/1*6xp-IY-M8lEEEN0UuUBq0w.jpeg])
-
 ### Packages need to be installed
 - pip install numpy
 - pip install opencv-python
